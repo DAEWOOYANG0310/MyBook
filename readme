@@ -1,3 +1,5 @@
+깃사용법
+
 update :해당 파일에 새로운 기능이 생김
 add: 없던 파일을 생성함, 초기세팅
 bugfix:버그수정
@@ -9,3 +11,9 @@ test:테스트 코드를 작성
 style:css
 gitfix:gitignore수정
 script:package.json변경 (npm 설치 등)
+////////////////////////////////////////
+git hub 페이지 안만들어질때
+
+1.$ git remote remove origin 사용해본다 <- 이뜻은 나중에 찾아보도록하자
+2.git remote add origin (주소링크)
+3.git push -u origin main
