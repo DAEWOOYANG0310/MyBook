@@ -148,17 +148,4 @@
 // }else
 // console.log('d')
 
-추가기능 컨벤션 
-
-영화를 클릭했을때 상세 정보사이트가 나오게
-별점 리뷰  장르별 따로
-댓글기능 추가 한국어 기능
-
-git branch
-
-gitbranch dev
-
-
-git branch dev
-  dev
 

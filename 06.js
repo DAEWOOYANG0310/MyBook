@@ -78,7 +78,7 @@
 // });
 ////////////////////////////////////////
 // 템플릿 리터널스
-
+//설명 ``빽틱으로 더 길게해야하는 코드를 연산자를 빼고 스트링도 더간편하게 쓸수 있고 ${}이녀석으로 더 편리하게 쓸수있다
 // console.log(
 //   "감사합니다 " +
 //     customer.name +
@@ -104,20 +104,21 @@
 //   item.price;
 // console.log(orderDetails);
 
-// const orderDetails = `
-// 고객 : ${customer.name}
-// 상품 : ${item.name}
-// 가격 : ${item.price}`;
+const customer = {
+  name: "르탄이",
+};
+//destructuring
+const item = {
+  name: "커피",
+  price: "4000",
+};
+const orderDetails = `
+고객 : ${customer.name}
+상품 : ${item.name}
+가격 : ${item.price}`;
+console.log(orderDetails);
 
 // console.log(orderDetails);
-// const customer = {
-//   name: "르탄이",
-// };
-// //destructuring
-// const item = {
-//   name: "커피",
-//   price: "4000",
-// };
 // const { name, price } = item;
 
 // console.log("name=>" + name);
@@ -139,15 +140,15 @@
 // console.log(first);
 // console.log(third);
 
-function confirmReservation(user) {
-  const { name, rommType, date: firstDate } = user;
-  return `${name} 고객님의 ${rommType}룸 입실날짜는 ${firstDate} 입니다.`;
-}
+// function confirmReservation(user) {
+//   const { name, rommType, date: firstDate } = user;
+//   return `${name} 고객님의 ${rommType}룸 입실날짜는 ${firstDate} 입니다.`;
+// }
 
-const userInfo = {
-  name: "james",
-  rommType: "Deluxe",
-  date: "2023-05-30",
-};
-const result = confirmReservation(userInfo);
-console.log(result);
+// const userInfo = {
+//   name: "james",
+//   rommType: "Deluxe",
+//   date: "2023-05-30",
+// };
+// const result = confirmReservation(userInfo);
+// console.log(result);
